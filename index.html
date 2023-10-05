@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <button id="translateButton"><i class="fa-solid fa-earth-americas"></i></button>
+        <section class="box-form">
+            <form action="" class="form">
+                <label for="name" data-translate="Full Name" data-translate-pt="Nome Completo">Nome Completo</label>
+                <input type="name" id="name" required placeholder="xxxxxxxxxxxxxx">
+                <label for="email" data-translate="Email" data-translate-pt="Email">Email</label>
+                <input type="email" id="email" required placeholder="xxxxxx@xxxxx.com.br">
+                <label for="telefone" data-translate="Phone" data-translate-pt="Telefone">Telefone</label>
+                <input type="tel" id="telefone" required placeholder="(00)0 0000-0000">
+                <label for="Endereço" data-translate="Address" data-translate-pt="Endereço">Endereço</label>
+                <input type="text" id="endereco" required placeholder="xxxxxxxx,1234-CE">
+
+                <button data-translate="Translate" data-translate-pt="Cadastrar">Cadastrar</button>
+            </form>
+            <div id="successMessage" class="success-message"></div>
+
+        </section>
+        <section class="footer">
+            <footer>Desenvolvido por Samuel FS</footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>
